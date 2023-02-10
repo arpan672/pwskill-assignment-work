@@ -1,0 +1,32 @@
+ 1....   # def keyword is used to  define the  a function in python 
+    def odd_no():
+        odd_list=[]
+        for i in range (0,25):
+            if i%2!=0:
+                odd_list.append(i)
+        return odd_list        
+ 2/... # *args is used to take a multiple input sumultaneously  whereas **kwargs is used to take dictionary kind of data where it can accept the key and value pair 
+            def arpan(*args ):
+                   for i in args:
+                               print(i)      
+                               
+ 3. def pawan(**kwargs):
+    for i in kwargs:
+        print(i , kwargs[i])
+        
+        
+    """for i,  j in kwargs.items():
+        print (i , j)"""                              
+          
+ 4.......  #an iterater in python is the methode to get the element of the iterable  one by one 
+
+    list1=[2,4,6,8,10,12,14,16,18,20]
+    for i in range(0 , 5):
+        print(list1[i])          
+        
+5.# generator function is the function which generate the output continously 
+ # and wipe out the previous storage ond generate the next value and give it as a return this process go continuously 
+    def  genrator_fuc(l):
+        for i in range(len(l)):
+            yeild l[i]
+                 
