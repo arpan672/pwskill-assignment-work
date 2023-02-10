@@ -1,0 +1,36 @@
+ 1. can store any kind of data 
+    its is immutable type of data type 
+    written within the parethethissis 
+    it is indexed 
+    can be sliced and tuple word is used as a keyword to change any data type into a tuple 
+  
+  2.  count() and index() are the two methode in the tuple
+      count() it take a argument and give the no of occurence  of the given input in the tuple 
+      index () it alse take a argument and give the first index of that argument as a outpur 
+      
+      
+   3.set is the collection of datatypes inpython do not allow duplicate item 
+     a=[2,2,2,2,2,2,2,2,2,2,2,5,6,7,8,4,5,6,78,3,4,5,6,7,8,9]#  this is the list with multiple duplicate 
+     b=set(a)
+     b # now only unik element will remain in the list as a set 
+     
+   4. in union () methode we combine the common element between the two set and make a one new unique set as a output
+      set 3 = set1.union(set2)
+      in update ()methode we add a some different element to the set in which a updata methode is called upon 
+      set1.update(set2) now set1 will be modified to the new set of element 
+   5. dictionary is the collection of the data set with the key and value pair of every key 
+      and key will be always unique 
+      and it is oudered but not indexed and can be extract the value with the help of the key 
+      dict1={key:value_pair , key1:value_pair1}
+      
+   6. yes we can create the nested dictionary 
+     ex :::
+     dict1={arpan:{name:arpan tiwarei, sirname:tiwari, place : mp(bakiya), state: madhyapradesh}, nitesh: my younger brother}
+      
+   7   dict1={"arpan":{"name":"arpan tiwarei, sirname:tiwari, place : mp(bakiya), state: madhyapradesh" }, "nitesh": "my younger brother" }
+       dict1.setdefault("language","python" )
+       dict1.setdefault("course" , "data science masters")
+        setdault is the methode which add a new key and it value pair to dictionay
+        
+        
+      
